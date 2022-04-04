@@ -6,7 +6,7 @@
     align-items: center;
   }
   &__title {
-    padding-left: 40px;
+    padding: 0;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
@@ -24,13 +24,16 @@
     height: 105.24px;
   }
   &__info {
+    width: 632px;
+    height: 108px;
     font-family: $dark;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
     color: #8f95a5;
-    margin-bottom: 61px;
+    margin: 0 0 50px 0;
+    padding: 0;
   }
   &__continner {
     display: flex;
@@ -50,6 +53,7 @@
     line-height: 54px;
     color: #ffffff;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
+    margin: 0;
   }
 }
