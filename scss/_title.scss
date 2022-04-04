@@ -1,0 +1,24 @@
+@import "vars";
+
+.speaking__title,
+.writing__title,
+.reading__title,
+.listening__title {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 80px;
+  color: $dark;
+  padding-left: 30px;
+}
+.skills__title {
+  margin: 103px 0 92px 0;
+  text-align: center;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: $dark;
+}

@@ -1,0 +1,55 @@
+@import "vars";
+.language {
+  &__learn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    padding-left: 40px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+  }
+  &__inner {
+    width: 540px;
+    height: 660px;
+  }
+  &__lamp {
+    margin-top: 55px;
+    width: 105.24px;
+    height: 105.24px;
+  }
+  &__info {
+    font-family: $dark;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8f95a5;
+    margin-bottom: 61px;
+  }
+  &__continner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__link {
+    position: absolute;
+    width: 438px;
+    height: 118px;
+    background: #263238;
+    border-radius: 15px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
