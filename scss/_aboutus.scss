@@ -1,0 +1,58 @@
+@import "vars";
+
+.aboutus {
+  margin: 242px 0 0 0;
+  &__inner {
+    display: flex;
+  }
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $dark;
+  }
+  &__right-img {
+    margin: 20px 0 0 0;
+    padding: 0;
+  }
+  &__text {
+    margin: -20px 194px 0 0;
+    padding: 0;
+    width: 635px;
+    height: 240px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $text-color;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: -25px 194px 0 0;
+    padding: 0;
+
+    &-in strong {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 80px;
+      color: $dark;
+    }
+    &-in p {
+      margin: 0 0 0 20px;
+      padding: 0;
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: $text-color;
+    }
+  }
+}
